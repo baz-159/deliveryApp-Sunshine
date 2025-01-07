@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flat Pack Guy Delivery Price Calculator (Thomastown)</title>
+    <link rel="stylesheet" href="style.css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuRY-FOpCdH7Rn9uTd8p7qgLo5vQjEht4&libraries=places"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>The Flat Pack Guy Delivery Price Calculator (Thomastown)</h1>
+        <form id="deliveryForm">
+            <label for="location">Enter Delivery Location:</label>
+            <input type="text" id="location" name="location">
+            <button type="submit">Calculate Price</button>
+        </form>
+        <div id="result"></div>
+        <div id="delivery-days"></div>
+        <!-- Map container added below -->
+        <div id="map" style="height: 400px; width: 100%; margin-top: 20px;"></div>
+    </div>
+
+    <!-- Load the Google Maps API with the Places library and a callback to initMap -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuRY-FOpCdH7Rn9uTd8p7qgLo5vQjEht4&libraries=places&callback=initMap"></script>
+    <!-- Your script.js file -->
+    <script src="script.js"></script>
+</body>
+</html>

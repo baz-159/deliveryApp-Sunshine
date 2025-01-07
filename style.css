@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start of the container */
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Adjust this to set the max width of the container */
+    text-align: center;
+    padding-top: 20px; /* Adds some space at the top */
+}
+
+
+form {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Added space below the form */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: block;
+}
+
+input[type="text"], button {
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    width: calc(100% - 20px); /* Adjust width taking padding into account */
+    padding: 10px; /* Add some padding inside the elements */
+    margin-top: 10px;
+    display: block; /* Makes input and button take full width of the form */
+    margin-left: auto; /* Center align the elements */
+    margin-right: auto; /* Center align the elements */
+    border: 1px solid #ccc; /* Optional: adds a border to the input and button */
+}
+
+button {
+    cursor: pointer; /* Changes cursor to pointer when hovering over the button */
+}
+
+#result {
+    margin-top: 20px; /* Adds space above the result text */
+    padding: 10px; /* Adds padding inside the result container */
+    background-color: #fff; /* Sets a background color */
+    border-radius: 10px; /* Rounds the corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    font-size: 16px; /* Sets the font size */
+    color: #333; /* Sets the text color */
+    width: calc(100%); /* Adjust width taking padding into account */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
