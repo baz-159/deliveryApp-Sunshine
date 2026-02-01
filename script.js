@@ -189,31 +189,31 @@ function calculateDeliveryPrice(distanceInMeters) {
     } else {
         // Existing pricing logic for distances up to 105 km
     if (distanceInKm <= 5) {
-        calculatedPrice = 70;
+        calculatedPrice = 75;
     } else if (distanceInKm <= 10) {
-        calculatedPrice = 80;
+        calculatedPrice = 85;
     } else if (distanceInKm <= 15) {
-        calculatedPrice = 90;
+        calculatedPrice = 95;
     } else if (distanceInKm <= 20) {
-        calculatedPrice = 110;
+        calculatedPrice = 115;
     } else if (distanceInKm <= 25) {
-        calculatedPrice = 120;
+        calculatedPrice = 125;
     } else if (distanceInKm <= 35) {
-        calculatedPrice = 130;
+        calculatedPrice = 135;
     } else if (distanceInKm <= 45) {
-        calculatedPrice = 140;
+        calculatedPrice = 145;
     } else if (distanceInKm <= 55) {
-        calculatedPrice = 150;
+        calculatedPrice = 155;
     } else if (distanceInKm <= 65) {
-        calculatedPrice = 170;
+        calculatedPrice = 175;
     } else if (distanceInKm <= 75) {
-        calculatedPrice = 190;
+        calculatedPrice = 195;
     } else if (distanceInKm <= 85) {
-        calculatedPrice = 230;
+        calculatedPrice = 235;
     } else if (distanceInKm <= 95) {
-        calculatedPrice = 270;
+        calculatedPrice = 275;
     } else if (distanceInKm <= 105) {
-        calculatedPrice = 310;
+        calculatedPrice = 315;
     } 
 }
     // Display the result on the page
